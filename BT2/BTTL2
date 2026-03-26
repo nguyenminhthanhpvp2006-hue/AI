@@ -1,1 +1,3 @@
-
+s = "Hello World"
+kq = s[2:5]
+print(kq)
