@@ -1,1 +1,10 @@
-
+chuoi = " Hello World "
+print(f"Gốc: '{chuoi}'")
+cutted = chuoi.strip()
+print(f"Đã cắt: '{cutted}'")
+hoa = cutted.upper()
+print(f"Hoa: '{hoa}'")
+thuong = cutted.lower()
+print(f"Thường: '{thuong}'")
+replaced_string = cutted.replace('H', 'J')
+print(f"Thay 'H' bằng 'J': '{replaced_string}'")
